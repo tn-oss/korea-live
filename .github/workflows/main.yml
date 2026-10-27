@@ -1,10 +1,9 @@
-name: channel JSON
+﻿name: Update Korea Live JSON
 
 on:
   schedule:
-    # 每 5 分钟执行一次
     - cron: '*/5 * * * *'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   update:
@@ -12,6 +11,9 @@ jobs:
     
     steps:
     - uses: actions/checkout@v4
+      with:
+        token: `${{ secrets.GITHUB_TOKEN }}`
+        persist-credentials: true
       
     - name: Fetch latest JSON
       run: |
@@ -20,11 +22,19 @@ jobs:
           -H "Referer: http://141.164.53.195/" \
           "http://141.164.53.195/live/korea-live.json" \
           -o channels.json
+        
+        if [ ! -s channels.json ]; then
+          echo "Error: Failed to fetch JSON"
+          exit 1
+        fi
+        
+        echo "Fetched $(wc -c < channels.json) bytes"
+        echo "Channels count: $(jq length channels.json)"
       
-    - name: Commit if changed
+    - name: Commit and push if changed
       run: |
-        git config --global user.name 'Auto Bot'
-        git config --global user.email 'bot@github.com'
+        git config --local user.name 'GitHub Action'
+        git config --local user.email 'action@github.com'
         git add channels.json
-        git commit -m "auto update $(date '+%Y-%m-%d %H:%M')" || echo "no changes"
+        git commit -m "chore: auto update channels.json [skip ci]" || echo "no changes"
         git push

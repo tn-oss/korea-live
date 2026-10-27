@@ -1,0 +1,5 @@
+[
+    {"group":"测试","logo":"","name":"KBS1","title":"KBS1","uris":["http://example.com/test.m3u8"],"headers":null},
+    {"group":"测试","logo":"","name":"KBS2","title":"KBS2","uris":["http://example.com/test2.m3u8"],"headers":null},
+    {"group":"测试","logo":"","name":"SBS","title":"SBS","uris":["http://example.com/test3.m3u8"],"headers":null}
+]

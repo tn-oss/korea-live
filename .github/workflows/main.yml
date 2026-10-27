@@ -1,0 +1,30 @@
+name: channel JSON
+
+on:
+  schedule:
+    # 每 5 分钟执行一次
+    - cron: '*/5 * * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      
+    - name: Fetch latest JSON
+      run: |
+        curl -s \
+          -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
+          -H "Referer: http://141.164.53.195/" \
+          "http://141.164.53.195/live/korea-live.json" \
+          -o channels.json
+      
+    - name: Commit if changed
+      run: |
+        git config --global user.name 'Auto Bot'
+        git config --global user.email 'bot@github.com'
+        git add channels.json
+        git commit -m "auto update $(date '+%Y-%m-%d %H:%M')" || echo "no changes"
+        git push

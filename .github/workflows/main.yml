@@ -10,11 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        persist-credentials: true
-      
     - name: Fetch latest JSON
       run: |
         curl -s \
@@ -30,13 +25,30 @@ jobs:
         
         echo "Fetched $(wc -c < channels.json) bytes"
         echo "Channels count: $(jq length channels.json)"
-      
-    - name: Commit and push if changed
-      run: |
-        git config --local user.name 'GitHub Action'
-        git config --local user.email 'action@github.com'
-        git add channels.json
-        git status
-        git diff --cached
-        git commit -m "chore: auto update channels.json" || true
-        git push
+    
+    - name: Update channels.json via GitHub API
+      uses: actions/github-script@v6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const fs = require('fs');
+          const content = fs.readFileSync('channels.json', 'utf8');
+          
+          // Get current file SHA
+          const { data: fileInfo } = await github.rest.repos.getContent({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            path: 'channels.json'
+          });
+          
+          // Update the file
+          await github.rest.repos.createOrUpdateFile({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            path: 'channels.json',
+            message: 'chore: auto update channels.json [skip ci]',
+            content: Buffer.from(content).toString('base64'),
+            sha: fileInfo.sha
+          });
+          
+          console.log('Updated channels.json');

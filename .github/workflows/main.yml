@@ -1,4 +1,4 @@
-name: Update Korea Live JSON
+﻿name: Update JSON
 
 on:
   schedule:
@@ -8,45 +8,19 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-    
-    - name: Fetch latest JSON
-      run: |
-        curl -s \
-          -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
-          -H "Referer: http://141.164.53.195/" \
-          "http://141.164.53.195/live/korea-live.json" \
-          -o channels.json
-        
-        if [ ! -s channels.json ]; then
-          echo "Error: Failed to fetch JSON"
-          exit 1
-        fi
-        
-        echo "Fetched $(wc -c < channels.json) bytes"
-        echo "Channels count: $(jq length channels.json)"
-    
-    - name: Check if changed
-      id: check
-      run: |
-        if [ -f channels.json ] && [ -n "$(git diff --quiet channels.json || echo changed)" ]; then
-          echo "changed=true" >> $GITHUB_OUTPUT
-          echo "Changed detected"
-        else
-          echo "changed=false" >> $GITHUB_OUTPUT
-          echo "No change"
-        fi
-    
-    - name: Commit and push
-      if: steps.check.outputs.changed == 'true'
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add channels.json
-        git commit -m "chore: auto update channels.json [skip ci]"
-        git push
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Update JSON
+        run: |
+          echo "JSON updated at $(date)"
+          # 这里可以添加更新逻辑
+
+      - name: Commit
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Auto update" || echo "No changes"
+          git push

@@ -12,15 +12,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Update JSON
+      - name: Download JSON
         run: |
-          echo "JSON updated at $(date)"
-          # 这里可以添加更新逻辑
+          curl -s -o channels.json http://141.164.53.195/live/korea-live.json
+          echo "Downloaded channels.json"
+          ls -la channels.json
 
-      - name: Commit
+      - name: Commit and Push
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add .
-          git commit -m "Auto update" || echo "No changes"
+          git add channels.json
+          git commit -m "Auto update channels.json from source" || echo "No changes"
           git push

@@ -11,17 +11,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Download JSON
         run: |
+          echo "Downloading from source..."
           curl -s -o channels.json http://141.164.53.195/live/korea-live.json
           echo "Downloaded channels.json"
           ls -la channels.json
+          head -c 200 channels.json
 
       - name: Commit and Push
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add channels.json
-          git commit -m "Auto update channels.json from source" || echo "No changes"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto update channels.json"
+            git push
+          fi

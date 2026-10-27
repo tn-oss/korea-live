@@ -1,4 +1,4 @@
-﻿name: Update Korea Live JSON
+name: Update Korea Live JSON
 
 on:
   schedule:
@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        token: `${{ secrets.GITHUB_TOKEN }}`
+        token: ${{ secrets.GITHUB_TOKEN }}
         persist-credentials: true
       
     - name: Fetch latest JSON

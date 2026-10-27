@@ -26,29 +26,24 @@ jobs:
         echo "Fetched $(wc -c < channels.json) bytes"
         echo "Channels count: $(jq length channels.json)"
     
-    - name: Update channels.json via GitHub API
-      uses: actions/github-script@v6
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        script: |
-          const fs = require('fs');
-          const content = fs.readFileSync('channels.json', 'utf8');
-          
-          // Get current file SHA
-          const { data: fileInfo } = await github.rest.repos.getContent({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            path: 'channels.json'
-          });
-          
-          // Update the file
-          await github.rest.repos.createOrUpdateFile({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            path: 'channels.json',
-            message: 'chore: auto update channels.json [skip ci]',
-            content: Buffer.from(content).toString('base64'),
-            sha: fileInfo.sha
-          });
-          
-          console.log('Updated channels.json');
+    - name: Get current file SHA
+      id: get-sha
+      run: |
+        SHA=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          "https://api.github.com/repos/${{ github.repository }}/contents/channels.json" | jq -r '.sha')
+        echo "sha=$SHA" >> $GITHUB_OUTPUT
+        echo "Current SHA: $SHA"
+    
+    - name: Update channels.json
+      run: |
+        CONTENT=$(base64 -w 0 channels.json)
+        SHA="${{ steps.get-sha.outputs.sha }}"
+        
+        curl -s -X PUT \
+          -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          "https://api.github.com/repos/${{ github.repository }}/contents/channels.json" \
+          -d "{\"message\":\"chore: auto update channels.json [skip ci]\",\"content\":\"$CONTENT\",\"sha\":\"$SHA\"}"
+        
+        echo "Updated channels.json successfully"

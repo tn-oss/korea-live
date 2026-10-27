@@ -36,5 +36,7 @@ jobs:
         git config --local user.name 'GitHub Action'
         git config --local user.email 'action@github.com'
         git add channels.json
-        git commit -m "chore: auto update channels.json [skip ci]" || echo "no changes"
+        git status
+        git diff --cached
+        git commit -m "chore: auto update channels.json" || true
         git push

@@ -1019,6 +1019,15 @@
   },
   {
     "group": "드라마(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52091.jpg",
+    "name": "나의 유죄인간 제4회 26/10/27",
+    "title": "나의 유죄인간 제4회 26/10/27",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/나의 유죄인간_제4회 26_10_27.m3u8"
+    ]
+  },
+  {
+    "group": "드라마(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/51816.jpg",
     "name": "가족관계증명서 제68회 26/10/27",
     "title": "가족관계증명서 제68회 26/10/27",
@@ -1060,15 +1069,6 @@
     "title": "여름방학 제1회 26/10/27",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/여름방학_제1회 26_10_27.m3u8"
-    ]
-  },
-  {
-    "group": "드라마(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/52091.jpg",
-    "name": "나의 유죄인간 제3회 26/10/26",
-    "title": "나의 유죄인간 제3회 26/10/26",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/나의 유죄인간_제3회 26_10_26.m3u8"
     ]
   },
   {
@@ -1469,6 +1469,15 @@
   },
   {
     "group": "드라마(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52091.jpg",
+    "name": "나의 유죄인간 제3회 26/10/26",
+    "title": "나의 유죄인간 제3회 26/10/26",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/나의 유죄인간_제3회 26_10_26.m3u8"
+    ]
+  },
+  {
+    "group": "드라마(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/51816.jpg",
     "name": "가족관계증명서 제67회 26/10/23",
     "title": "가족관계증명서 제67회 26/10/23",
@@ -1501,15 +1510,6 @@
     "title": "연애박사 제6회 26/10/20",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/연애박사_제6회 26_10_20.m3u8"
-    ]
-  },
-  {
-    "group": "드라마(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/52091.jpg",
-    "name": "나의 유죄인간 제2회 26/10/20",
-    "title": "나의 유죄인간 제2회 26/10/20",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/나의 유죄인간_제2회 26_10_20.m3u8"
     ]
   },
   {
@@ -1897,6 +1897,42 @@
     "title": "동궁 제7회 26/07/18",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/동궁_제7회 26_07_18.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52097.jpg",
+    "name": "상남자의 여행법 in 대만 제4회 26/10/27",
+    "title": "상남자의 여행법 in 대만 제4회 26/10/27",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/상남자의 여행법 in 대만_제4회 26_10_27.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/49287.jpg",
+    "name": "틈만나면, 제63회 26/10/27",
+    "title": "틈만나면, 제63회 26/10/27",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/틈만나면,_제63회 26_10_27.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/50358.jpg",
+    "name": "ENA 케이팝업 차트쇼 제25회 26/10/27",
+    "title": "ENA 케이팝업 차트쇼 제25회 26/10/27",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/ENA 케이팝업 차트쇼_제25회 26_10_27.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/51446.jpg",
+    "name": "히든에이지: 시간도둑을 찾아라 제27회 26/10/27",
+    "title": "히든에이지: 시간도둑을 찾아라 제27회 26/10/27",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/히든에이지_ 시간도둑을 찾아라_제27회 26_10_27.m3u8"
     ]
   },
   {
@@ -2765,15 +2801,6 @@
   },
   {
     "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/51930.jpg",
-    "name": "스트릿 월드 파이터 : 디렉터스 워 제9회 26/10/21",
-    "title": "스트릿 월드 파이터 : 디렉터스 워 제9회 26/10/21",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/스트릿 월드 파이터 _ 디렉터스 워_제9회 26_10_21.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/52097.jpg",
     "name": "상남자의 여행법 in 대만 제3회 26/10/21",
     "title": "상남자의 여행법 in 대만 제3회 26/10/21",
@@ -2783,20 +2810,29 @@
   },
   {
     "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/41479.jpg",
-    "name": "옥탑방의 문제아들 제331회 26/10/20",
-    "title": "옥탑방의 문제아들 제331회 26/10/20",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/옥탑방의 문제아들_제331회 26_10_20.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/49287.jpg",
     "name": "틈만나면, 제62회 26/10/20",
     "title": "틈만나면, 제62회 26/10/20",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/틈만나면,_제62회 26_10_20.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/50358.jpg",
+    "name": "ENA 케이팝업 차트쇼 제24회 26/09/29",
+    "title": "ENA 케이팝업 차트쇼 제24회 26/09/29",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/ENA 케이팝업 차트쇼_제24회 26_09_29.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/51446.jpg",
+    "name": "히든에이지: 시간도둑을 찾아라 제26회 26/10/20",
+    "title": "히든에이지: 시간도둑을 찾아라 제26회 26/10/20",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/히든에이지_ 시간도둑을 찾아라_제26회 26_10_20.m3u8"
     ]
   },
   {
@@ -3643,42 +3679,6 @@
     "title": "동상이몽 2 - 너는 내 운명 제463회 26/10/13",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/동상이몽 2 - 너는 내 운명_제463회 26_10_13.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/51930.jpg",
-    "name": "스트릿 월드 파이터 : 디렉터스 워 제8회 26/10/06",
-    "title": "스트릿 월드 파이터 : 디렉터스 워 제8회 26/10/06",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/스트릿 월드 파이터 _ 디렉터스 워_제8회 26_10_06.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/52097.jpg",
-    "name": "상남자의 여행법 in 대만 제2회 26/10/13",
-    "title": "상남자의 여행법 in 대만 제2회 26/10/13",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/상남자의 여행법 in 대만_제2회 26_10_13.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/41479.jpg",
-    "name": "옥탑방의 문제아들 제330회 26/10/13",
-    "title": "옥탑방의 문제아들 제330회 26/10/13",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/옥탑방의 문제아들_제330회 26_10_13.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/49287.jpg",
-    "name": "틈만나면, 제61회 26/10/13",
-    "title": "틈만나면, 제61회 26/10/13",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/틈만나면,_제61회 26_10_13.m3u8"
     ]
   },
   {

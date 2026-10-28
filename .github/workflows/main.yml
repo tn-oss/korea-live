@@ -24,39 +24,30 @@ jobs:
           curl -s -o c.json http://141.164.53.195/live/korea-live.json
           echo "Downloaded c.json"
           ls -la c.json
-          head -c 200 c.json
 
-      - name: Merge to channels.json
+      - name: Merge with test.json
         run: |
-          echo "Merging c.json and test.json to channels.json..."
+          echo "Merging c.json and test.json..."
           python3 -c "
           import json
           
-          # 读取 c.json（爬虫下载的数据）
+          # 读取 c.json（爬虫数据）
           with open('c.json', 'r', encoding='utf-8') as f:
               c_data = json.load(f)
           
-          # 读取 test.json（自定义测试数据）
+          # 读取 test.json（自定义数据）
           with open('test.json', 'r', encoding='utf-8') as f:
               test_data = json.load(f)
           
-          # 合并数据
-          channels_data = {
-              'meta': {
-                  'updateTime': '2026-10-28T08:33:00Z',
-                  'source': 'http://141.164.53.195/live/korea-live.json',
-                  'cChannels': len(c_data),
-                  'testChannels': len(test_data)
-              },
-              'c': c_data,
-              'test': test_data
-          }
+          # 合并：test 数据追加到 c 数据后面
+          # 保持与 c.json 相同的数组格式
+          all_channels = c_data + test_data
           
-          # 保存 channels.json
+          # 保存 channels.json（格式与 c.json 完全一致）
           with open('channels.json', 'w', encoding='utf-8') as f:
-              json.dump(channels_data, f, ensure_ascii=False, indent=4)
+              json.dump(all_channels, f, ensure_ascii=False, indent=4)
           
-          print(f'Created channels.json with {len(c_data)} c channels and {len(test_data)} test channels')
+          print(f'Created channels.json with {len(all_channels)} channels ({len(c_data)} c + {len(test_data)} test)')
           "
           ls -la channels.json
 

@@ -18,22 +18,55 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
 
-      - name: Download JSON
+      - name: Download channels.json
         run: |
-          echo "Downloading from source..."
+          echo "Downloading channels.json from source..."
           curl -s -o channels.json http://141.164.53.195/live/korea-live.json
           echo "Downloaded channels.json"
           ls -la channels.json
-          head -c 200 channels.json
+
+      - name: Create all.json
+        run: |
+          echo "Creating all.json..."
+          python3 -c "
+          import json
+          
+          # 读取 channels.json
+          with open('channels.json', 'r', encoding='utf-8') as f:
+              channels = json.load(f)
+          
+          # 读取 test.json
+          with open('test.json', 'r', encoding='utf-8') as f:
+              test = json.load(f)
+          
+          # 创建合并后的数据
+          all_data = {
+              'meta': {
+                  'updateTime': '2026-10-28T08:10:00Z',
+                  'source': 'http://141.164.53.195/live/korea-live.json',
+                  'channels': len(channels),
+                  'test': test
+              },
+              'channels': channels,
+              'test': test
+          }
+          
+          # 保存 all.json
+          with open('all.json', 'w', encoding='utf-8') as f:
+              json.dump(all_data, f, ensure_ascii=False, indent=4)
+          
+          print(f'Created all.json with {len(channels)} channels')
+          "
+          ls -la all.json
 
       - name: Commit and Push
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add channels.json
+          git add channels.json all.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Auto update channels.json"
+          git commit -m "Auto update channels.json and all.json"
           git push

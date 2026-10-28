@@ -20,6 +20,20 @@
 		"title": "KBS드라마",
 		"uris": ["https://kbsndrama.gscdn.kbs.co.kr/kbsndrama-01/kbsndrama-01_sd.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9rYnNuZHJhbWEuZ3NjZG4ua2JzLmNvLmtyL2tic25kcmFtYS0wMS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzkzMzE4NDAzfX19XX0_&Key-Pair-Id=APKAICDSGT3Y7IXGJ3TA&Signature=J2PKjwSFteTfd~j-E5SViBhU1dy0yNKNvH8vq0F6q0g7aNfCQAI06~ksSVFRIBuQ~GpEy8318a60kQKnJ5d~BXZ6bkhMighR2Jqunis8yMTFKzLKCGzjkKP4sVt~sjfHxgoeXh617ojBjTTWtcwO9QxDQhKTT2PKVg4DcBv4Wg1YZR9PTEj~O7RyXOH274z94ymnIvFFjA~UbCV7I04tXFyEe5mKKVAGxwi2T3lIeO66g2z~qQY49T4xUJUv3RlOj4mE4fFGCGj~a2IQl7itFtkX01u5PvwbYoe7C57MHODtjHw2FjhR3CSYkSZ9mlJoMnVAv74JTY~8qDsU7P38nA__"]
 	},
+	{
+		"group": "한국-지상파",
+		"logo": "https://backup.760515.xyz/logo/SBS.png",
+		"name": "SBS",
+		"title": "SBS",
+		"uris": ["https://tvlive.sbs.co.kr/sbsch6/sbsch61.stream/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3OTMxNjM2MDMsInBhdGgiOiIvc2JzY2g2MS5zdHJlYW0iLCJkdXJhdGlvbiI6LTEsInVubyI6IjcxYjFlNjA2LTljM2ItNDU4OS1iZTAwLTk1MTcyNzE2NTE0NiIsImlhdCI6MTc5MzE1NjQwM30.B7-QXpxgyPgfN4chiLkadBI9QbfGO_IlD7m6NTkEq-g"]
+	},
+	{
+		"group": "한국-지상파",
+		"logo": "https://backup.760515.xyz/logo/MBC.png",
+		"name": "MBC",
+		"title": "MBC",
+		"uris": ["https://backup.760515.xyz/playlist/MBC-playlist.m3u8"]
+	},
     {
 		"group": "한국-영화",
 		"logo": "",

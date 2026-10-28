@@ -18,55 +18,56 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
 
-      - name: Download channels.json
+      - name: Download c.json
         run: |
-          echo "Downloading channels.json from source..."
-          curl -s -o channels.json http://141.164.53.195/live/korea-live.json
-          echo "Downloaded channels.json"
-          ls -la channels.json
+          echo "Downloading c.json from source..."
+          curl -s -o c.json http://141.164.53.195/live/korea-live.json
+          echo "Downloaded c.json"
+          ls -la c.json
+          head -c 200 c.json
 
-      - name: Create all.json
+      - name: Merge to channels.json
         run: |
-          echo "Creating all.json..."
+          echo "Merging c.json and test.json to channels.json..."
           python3 -c "
           import json
           
-          # 读取 channels.json
-          with open('channels.json', 'r', encoding='utf-8') as f:
-              channels = json.load(f)
+          # 读取 c.json（爬虫下载的数据）
+          with open('c.json', 'r', encoding='utf-8') as f:
+              c_data = json.load(f)
           
-          # 读取 test.json
+          # 读取 test.json（自定义测试数据）
           with open('test.json', 'r', encoding='utf-8') as f:
-              test = json.load(f)
+              test_data = json.load(f)
           
-          # 创建合并后的数据
-          all_data = {
+          # 合并数据
+          channels_data = {
               'meta': {
-                  'updateTime': '2026-10-28T08:10:00Z',
+                  'updateTime': '2026-10-28T08:33:00Z',
                   'source': 'http://141.164.53.195/live/korea-live.json',
-                  'channels': len(channels),
-                  'test': test
+                  'cChannels': len(c_data),
+                  'testChannels': len(test_data)
               },
-              'channels': channels,
-              'test': test
+              'c': c_data,
+              'test': test_data
           }
           
-          # 保存 all.json
-          with open('all.json', 'w', encoding='utf-8') as f:
-              json.dump(all_data, f, ensure_ascii=False, indent=4)
+          # 保存 channels.json
+          with open('channels.json', 'w', encoding='utf-8') as f:
+              json.dump(channels_data, f, ensure_ascii=False, indent=4)
           
-          print(f'Created all.json with {len(channels)} channels')
+          print(f'Created channels.json with {len(c_data)} c channels and {len(test_data)} test channels')
           "
-          ls -la all.json
+          ls -la channels.json
 
       - name: Commit and Push
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add channels.json all.json
+          git add c.json channels.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Auto update channels.json and all.json"
+          git commit -m "Auto update c.json and merge to channels.json"
           git push

@@ -5,7 +5,7 @@
     "name": "KBS1",
     "title": "KBS1",
     "uris": [
-      "http://104.224.168.115:8080/live/kbs1.m3u8"
+      "https://tving-live-o2-ktcdn.tving.com/o2/v1/01a0a8531d5c1eb80e791db1d96030/01a0a85320b41eb80e791db1d96033/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLWt0Y2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk0MjIxNTE3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=UC7xlBUpZ7WWqiH2rOIWWIhuNwV2Rkr1R-SK~Vy2jr0zXhvFVoURD-SJ7oOnHifHbYuTmshpXn8sbXzOW2TND8cc8o86AkKUrGjRk3d8b-gTPfUKv4qDkQG0k8Nt9bpbVpd1MANuE75holyhKGY1ZNDL2YxtYgHIFwZkXC9pwsQvwNxXY5qwGRjuNzGqE5r-uV9RQHf-UYfVyJLNu4CR8~gJfUB7BMUTXQbwHl8zvHcmBo7MScR6zQiTwBI3~5vikHce1S2YZNbBZu~RawRxEwqqhvG4r0xUgemVgG3o4x95fuKmNJ92qoBmondO6WqdvFCyjzCZF3nBQjqF-dYiug__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA"
     ],
     "headers": {
       "cookie": "kbs1_replace_cookie",
@@ -18,7 +18,7 @@
     "name": "KBS2",
     "title": "KBS2",
     "uris": [
-      "http://104.224.168.115:8080/live/kbs2.m3u8"
+      "https://tving-live-o2-xcdn.tving.com/o2/v1/01a0a855bb341eb80e791db1d96034/01a0a855bea1153d78652fe2d08706/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTQyMjE1MjAsInBhdGgiOiIvbzIifQ.nTXT3LPSEPuNQ5gTwKMlAVvhwB0xp-NjUtGBEQBQAwk"
     ],
     "headers": {
       "cookie": "kbs2_replace_cookie",
@@ -44,7 +44,7 @@
     "name": "MBC",
     "title": "MBC",
     "uris": [
-      "http://104.224.168.115:8080/live/mbc.m3u8"
+      "https://tving-live-o2-xcdn.tving.com/v1/ssai/manifest/019bd50ff2d61eb80e791c22ad4884/25ce461fc6573a0d4ab76f8f49c5836d/dmMxX3N0cmVhbTMubTN1OA==/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTQyMjE1MzIsInBhdGgiOiIvdjEifQ.Q_sNUkD2MPu6a_meNxXgcqciBkkpkRxN68V5BJIS5LU"
     ],
     "headers": {
       "cookie": "mbc_replace_cookie",
@@ -1019,6 +1019,15 @@
   },
   {
     "group": "드라마(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52165.jpg",
+    "name": "파이널 테이블 제6회 26/11/09",
+    "title": "파이널 테이블 제6회 26/11/09",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/파이널 테이블_제6회 26_11_09.m3u8"
+    ]
+  },
+  {
+    "group": "드라마(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/52223.jpg",
     "name": "문무 스페셜 2부",
     "title": "문무 스페셜 2부",
@@ -1060,15 +1069,6 @@
     "title": "라이어 제4회 26/11/08",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/라이어_제4회 26_11_08.m3u8"
-    ]
-  },
-  {
-    "group": "드라마(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/52165.jpg",
-    "name": "파이널 테이블 제5회 26/11/08",
-    "title": "파이널 테이블 제5회 26/11/08",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/파이널 테이블_제5회 26_11_08.m3u8"
     ]
   },
   {
@@ -1469,6 +1469,15 @@
   },
   {
     "group": "드라마(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52165.jpg",
+    "name": "파이널 테이블 제5회 26/11/08",
+    "title": "파이널 테이블 제5회 26/11/08",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/파이널 테이블_제5회 26_11_08.m3u8"
+    ]
+  },
+  {
+    "group": "드라마(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/52223.jpg",
     "name": "문무 스페셜 1부",
     "title": "문무 스페셜 1부",
@@ -1510,15 +1519,6 @@
     "title": "라이어 제3회 26/11/07",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/라이어_제3회 26_11_07.m3u8"
-    ]
-  },
-  {
-    "group": "드라마(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/52165.jpg",
-    "name": "파이널 테이블 제4회 26/11/01",
-    "title": "파이널 테이블 제4회 26/11/01",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/파이널 테이블_제4회 26_11_01.m3u8"
     ]
   },
   {
@@ -1906,6 +1906,78 @@
     "title": "최애 데뷔 제3회 26/07/28",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/최애 데뷔_제3회 26_07_28.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/28170.jpg",
+    "name": "이제 만나러 갑니다 제666회 26/11/08",
+    "title": "이제 만나러 갑니다 제666회 26/11/08",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/이제 만나러 갑니다_제666회 26_11_08.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/50080.jpg",
+    "name": "냉장고를 부탁해 since 2014 제97회 26/11/08",
+    "title": "냉장고를 부탁해 since 2014 제97회 26/11/08",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/냉장고를 부탁해 since 2014_제97회 26_11_08.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/36354.jpg",
+    "name": "미운 우리 새끼 제522회 26/11/08",
+    "title": "미운 우리 새끼 제522회 26/11/08",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/미운 우리 새끼_제522회 26_11_08.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/50520.jpg",
+    "name": "인생이 영화 제54회 26/11/08",
+    "title": "인생이 영화 제54회 26/11/08",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/인생이 영화_제54회 26_11_08.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52103.jpg",
+    "name": "신인감독 김연경2 제5회 26/11/09",
+    "title": "신인감독 김연경2 제5회 26/11/09",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/신인감독 김연경2_제5회 26_11_09.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52008.jpg",
+    "name": "디스이즈 현무로드 제8회 26/11/09",
+    "title": "디스이즈 현무로드 제8회 26/11/09",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/디스이즈 현무로드_제8회 26_11_09.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/48645.jpg",
+    "name": "개그 콘서트 제146회 26/11/09",
+    "title": "개그 콘서트 제146회 26/11/09",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/개그 콘서트_제146회 26_11_09.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/51996.jpg",
+    "name": "이현우의 체크인 콘서트 제10회 26/11/09",
+    "title": "이현우의 체크인 콘서트 제10회 26/11/09",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/이현우의 체크인 콘서트_제10회 26_11_09.m3u8"
     ]
   },
   {
@@ -2729,65 +2801,11 @@
   },
   {
     "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/50520.jpg",
-    "name": "인생이 영화 제53회 26/11/01",
-    "title": "인생이 영화 제53회 26/11/01",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/인생이 영화_제53회 26_11_01.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/52094.jpg",
     "name": "밥값 하는 남자들 제5회 26/11/01",
     "title": "밥값 하는 남자들 제5회 26/11/01",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/밥값 하는 남자들_제5회 26_11_01.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/52103.jpg",
-    "name": "신인감독 김연경2 제4회 26/11/02",
-    "title": "신인감독 김연경2 제4회 26/11/02",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/신인감독 김연경2_제4회 26_11_02.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/36354.jpg",
-    "name": "미운 우리 새끼 제521회 26/11/02",
-    "title": "미운 우리 새끼 제521회 26/11/02",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/미운 우리 새끼_제521회 26_11_02.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/52008.jpg",
-    "name": "디스이즈 현무로드 제7회 26/11/02",
-    "title": "디스이즈 현무로드 제7회 26/11/02",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/디스이즈 현무로드_제7회 26_11_02.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/51996.jpg",
-    "name": "이현우의 체크인 콘서트 제9회 26/11/02",
-    "title": "이현우의 체크인 콘서트 제9회 26/11/02",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/이현우의 체크인 콘서트_제9회 26_11_02.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/48645.jpg",
-    "name": "개그 콘서트 제145회 26/11/02",
-    "title": "개그 콘서트 제145회 26/11/02",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/개그 콘서트_제145회 26_11_02.m3u8"
     ]
   },
   {
@@ -2806,6 +2824,60 @@
     "title": "냉장고를 부탁해 since 2014 제96회 26/11/01",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/냉장고를 부탁해 since 2014_제96회 26_11_01.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/36354.jpg",
+    "name": "미운 우리 새끼 제521회 26/11/02",
+    "title": "미운 우리 새끼 제521회 26/11/02",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/미운 우리 새끼_제521회 26_11_02.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/50520.jpg",
+    "name": "인생이 영화 제53회 26/11/01",
+    "title": "인생이 영화 제53회 26/11/01",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/인생이 영화_제53회 26_11_01.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52103.jpg",
+    "name": "신인감독 김연경2 제4회 26/11/02",
+    "title": "신인감독 김연경2 제4회 26/11/02",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/신인감독 김연경2_제4회 26_11_02.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52008.jpg",
+    "name": "디스이즈 현무로드 제7회 26/11/02",
+    "title": "디스이즈 현무로드 제7회 26/11/02",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/디스이즈 현무로드_제7회 26_11_02.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/48645.jpg",
+    "name": "개그 콘서트 제145회 26/11/02",
+    "title": "개그 콘서트 제145회 26/11/02",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/개그 콘서트_제145회 26_11_02.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/51996.jpg",
+    "name": "이현우의 체크인 콘서트 제9회 26/11/02",
+    "title": "이현우의 체크인 콘서트 제9회 26/11/02",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/이현우의 체크인 콘서트_제9회 26_11_02.m3u8"
     ]
   },
   {
@@ -3566,15 +3638,6 @@
   },
   {
     "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/50520.jpg",
-    "name": "인생이 영화 제52회 26/10/25",
-    "title": "인생이 영화 제52회 26/10/25",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/인생이 영화_제52회 26_10_25.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/52094.jpg",
     "name": "밥값 하는 남자들 제4회 26/10/25",
     "title": "밥값 하는 남자들 제4회 26/10/25",
@@ -3583,66 +3646,21 @@
     ]
   },
   {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/52103.jpg",
-    "name": "신인감독 김연경2 제3회 26/10/25",
-    "title": "신인감독 김연경2 제3회 26/10/25",
+    "group": "영화",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52269.jpg",
+    "name": "표인: 풍기대막 본편",
+    "title": "표인: 풍기대막 본편",
     "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/신인감독 김연경2_제3회 26_10_25.m3u8"
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/표인_ 풍기대막_본편.m3u8"
     ]
   },
   {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/36354.jpg",
-    "name": "미운 우리 새끼 제520회 26/10/25",
-    "title": "미운 우리 새끼 제520회 26/10/25",
+    "group": "영화",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52270.jpg",
+    "name": "퓨리어스 본편",
+    "title": "퓨리어스 본편",
     "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/미운 우리 새끼_제520회 26_10_25.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/52008.jpg",
-    "name": "디스이즈 현무로드 제6회 26/10/25",
-    "title": "디스이즈 현무로드 제6회 26/10/25",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/디스이즈 현무로드_제6회 26_10_25.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/51996.jpg",
-    "name": "이현우의 체크인 콘서트 제8회 26/10/25",
-    "title": "이현우의 체크인 콘서트 제8회 26/10/25",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/이현우의 체크인 콘서트_제8회 26_10_25.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/48645.jpg",
-    "name": "개그 콘서트 제144회 26/10/25",
-    "title": "개그 콘서트 제144회 26/10/25",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/개그 콘서트_제144회 26_10_25.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/28170.jpg",
-    "name": "이제 만나러 갑니다 제664회 26/10/25",
-    "title": "이제 만나러 갑니다 제664회 26/10/25",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/이제 만나러 갑니다_제664회 26_10_25.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/50080.jpg",
-    "name": "냉장고를 부탁해 since 2014 제95회 26/10/25",
-    "title": "냉장고를 부탁해 since 2014 제95회 26/10/25",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/냉장고를 부탁해 since 2014_제95회 26_10_25.m3u8"
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/퓨리어스_본편.m3u8"
     ]
   },
   {
@@ -4525,24 +4543,6 @@
     "title": "대담하거나, 타락하거나, 아름다운 본편",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/대담하거나, 타락하거나, 아름다운_본편.m3u8"
-    ]
-  },
-  {
-    "group": "영화",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/51856.jpg",
-    "name": "신사: 악귀의 속삭임 본편",
-    "title": "신사: 악귀의 속삭임 본편",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/신사_ 악귀의 속삭임_본편.m3u8"
-    ]
-  },
-  {
-    "group": "영화",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/51840.jpg",
-    "name": "너와 사랑한 시간 본편",
-    "title": "너와 사랑한 시간 본편",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/너와 사랑한 시간_본편.m3u8"
     ]
   },
   {

@@ -5,7 +5,7 @@
     "name": "KBS1",
     "title": "KBS1",
     "uris": [
-      "https://tving-live-o2-xcdn.tving.com/o2/v1/01a0a8531d5c1eb80e791db1d96030/01a0a85320b41eb80e791db1d96033/playlist.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0dmluZy5jb20iLCJleHAiOjE3OTQ3MDAzNTEsInBhdGgiOiIvbzIifQ.3AUvng_rgfGeJ-3Blk8qUPh0zHvlhxyhRMhP-wOFx3s"
+      "http://43.164.132.11/kakaotv/get_channel.php?channel=kbs1"
     ],
     "headers": {
       "cookie": "kbs1_replace_cookie",
@@ -18,7 +18,7 @@
     "name": "KBS2",
     "title": "KBS2",
     "uris": [
-      "https://tving-live-o2-skcdn.tving.com/o2/v1/01a0a855bb341eb80e791db1d96034/01a0a855bea1153d78652fe2d08706/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLXNrY2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk0NzAwMzYzfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=MiSM~Ny0BzizL-akoQmNPmOIpNVXOfjLmyIplWn36ch78IIbNqXSGkv9~zytrmfK9HQVweugDCpnEPiqe3LKFqOuvo7E9hTItxTC2aq~aZRou7L92VBE~nTrvQKIL8t~MAV7yUO2q83y-mIVJf91cAFk9WpTaJYd44LpoJ4xs1APK4Zo6KoM9qjByXdscokugH4HRK6PnYuIMZI~5D5SGfpMkoQ3gI-VOz2jI2-jT2P9Nz7lcwGgc5jKr3lnIfoLzJd3AfdT-qV4otmtbAWm~Sx9XJD8~a0K8WKhI5d2L1y25v61CmVZREb7PmMvO~VWKLOGR8-Db117jfxJ25R6nA__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA"
+      "http://43.164.132.11/kakaotv/get_channel.php?channel=kbs2"
     ],
     "headers": {
       "cookie": "kbs2_replace_cookie",
@@ -44,7 +44,7 @@
     "name": "MBC",
     "title": "MBC",
     "uris": [
-      "https://tving-live-o2-ktcdn.tving.com/v1/ssai/manifest/019bd50ff2d61eb80e791c22ad4884/aa0a5f249f0182eb15848d0905a4a3a8/dmMxX3N0cmVhbTMubTN1OA==/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly90dmluZy1saXZlLW8yLWt0Y2RuLnR2aW5nLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk0NzAwMzkwfSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjAuMC4wLjAvMCJ9fX1dfQ__&Signature=Z22WptUu5U9JHu29qovfB2ZIrrr0RFtd0rKM~jnwrXle5EV4A4wMXsk3-Co8ess5nYbiC~2vriz00TLuscIJkS~Or1f~Fxx7WWMwE2rUhjNtjlk0c9zAKoX8Aj9GH25V~P0HNTklhDvkQCoAdxkyYA2ZiccS0OC6YQitKq-69kGyDxoH0HqihOhzPEY~55iDIeFnbG19TA9jCNBRRk8t4Q2LeRqDi~7hdrpriDA5gxEOXo7FULWTHanJekZi12DmemGhqyvQ~rGshaerT5rUPHmsqDy45eQs-Hqp4~CY7l1-E0UWLqqtXigOVMl7rvO1dD5pb7zkgaLWMYZcNLLSyQ__&Key-Pair-Id=APKAIXCIJCFRGOUEZDWA"
+      "http://43.164.132.11/kakaotv/get_channel.php?channel=mbc"
     ],
     "headers": {
       "cookie": "mbc_replace_cookie",
@@ -1305,6 +1305,15 @@
   },
   {
     "group": "드라마(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52241.jpg",
+    "name": "라이어 제5회 26/11/13",
+    "title": "라이어 제5회 26/11/13",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/라이어_제5회 26_11_13.m3u8"
+    ]
+  },
+  {
+    "group": "드라마(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/52090.jpg",
     "name": "닥터X : 하얀 마피아의 시대 제11회 26/11/13",
     "title": "닥터X : 하얀 마피아의 시대 제11회 26/11/13",
@@ -1481,15 +1490,6 @@
     "title": "사랑이 온다 제29회 26/11/08",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/사랑이 온다_제29회 26_11_08.m3u8"
-    ]
-  },
-  {
-    "group": "드라마(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/52241.jpg",
-    "name": "라이어 제4회 26/11/08",
-    "title": "라이어 제4회 26/11/08",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/라이어_제4회 26_11_08.m3u8"
     ]
   },
   {
@@ -1755,6 +1755,15 @@
   },
   {
     "group": "드라마(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52241.jpg",
+    "name": "라이어 제4회 26/11/08",
+    "title": "라이어 제4회 26/11/08",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/라이어_제4회 26_11_08.m3u8"
+    ]
+  },
+  {
+    "group": "드라마(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/52090.jpg",
     "name": "닥터X : 하얀 마피아의 시대 제10회 26/11/08",
     "title": "닥터X : 하얀 마피아의 시대 제10회 26/11/08",
@@ -1931,15 +1940,6 @@
     "title": "사랑이 온다 제28회 26/11/07",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/사랑이 온다_제28회 26_11_07.m3u8"
-    ]
-  },
-  {
-    "group": "드라마(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/52241.jpg",
-    "name": "라이어 제3회 26/11/07",
-    "title": "라이어 제3회 26/11/07",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/라이어_제3회 26_11_07.m3u8"
     ]
   },
   {
@@ -2192,6 +2192,33 @@
     "title": "결혼의 완성 제11회 26/08/08",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/결혼의 완성_제11회 26_08_08.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/28292.jpg",
+    "name": "나 혼자 산다 제705회 26/11/14",
+    "title": "나 혼자 산다 제705회 26/11/14",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/나 혼자 산다_제705회 26_11_14.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/45038.jpg",
+    "name": "나는 SOLO <나는 솔로> 제278회 26/11/11",
+    "title": "나는 SOLO <나는 솔로> 제278회 26/11/11",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/나는 SOLO _나는 솔로__제278회 26_11_11.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52256.jpg",
+    "name": "지옥의 짬밥 제2회 26/11/14",
+    "title": "지옥의 짬밥 제2회 26/11/14",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/지옥의 짬밥_제2회 26_11_14.m3u8"
     ]
   },
   {
@@ -2925,15 +2952,6 @@
   },
   {
     "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/45038.jpg",
-    "name": "나는 SOLO <나는 솔로> 제277회 26/11/04",
-    "title": "나는 SOLO <나는 솔로> 제277회 26/11/04",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/나는 SOLO _나는 솔로__제277회 26_11_04.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/28232.jpg",
     "name": "TV 동물농장 제449회 26/11/08",
     "title": "TV 동물농장 제449회 26/11/08",
@@ -3060,15 +3078,6 @@
   },
   {
     "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/28292.jpg",
-    "name": "나 혼자 산다 제704회 26/11/07",
-    "title": "나 혼자 산다 제704회 26/11/07",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/나 혼자 산다_제704회 26_11_07.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/51979.jpg",
     "name": "무엇이든 해줄지니 - 비서진 제10회 26/11/07",
     "title": "무엇이든 해줄지니 - 비서진 제10회 26/11/07",
@@ -3078,20 +3087,38 @@
   },
   {
     "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/52256.jpg",
-    "name": "지옥의 짬밥 제1회 26/11/07",
-    "title": "지옥의 짬밥 제1회 26/11/07",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/지옥의 짬밥_제1회 26_11_07.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/43990.jpg",
     "name": "비긴어게인 오픈마이크 제49회 26/11/07",
     "title": "비긴어게인 오픈마이크 제49회 26/11/07",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/비긴어게인 오픈마이크_제49회 26_11_07.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/28292.jpg",
+    "name": "나 혼자 산다 제704회 26/11/07",
+    "title": "나 혼자 산다 제704회 26/11/07",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/나 혼자 산다_제704회 26_11_07.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/45038.jpg",
+    "name": "나는 SOLO <나는 솔로> 제277회 26/11/04",
+    "title": "나는 SOLO <나는 솔로> 제277회 26/11/04",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/나는 SOLO _나는 솔로__제277회 26_11_04.m3u8"
+    ]
+  },
+  {
+    "group": "예능(다시보기)",
+    "logo": "https://www.kdrama.pw/img/videos/200x285/52256.jpg",
+    "name": "지옥의 짬밥 제1회 26/11/07",
+    "title": "지옥의 짬밥 제1회 26/11/07",
+    "uris": [
+      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/지옥의 짬밥_제1회 26_11_07.m3u8"
     ]
   },
   {
@@ -3780,15 +3807,6 @@
   },
   {
     "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/45038.jpg",
-    "name": "나는 SOLO <나는 솔로> 제276회 26/10/28",
-    "title": "나는 SOLO <나는 솔로> 제276회 26/10/28",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/나는 SOLO _나는 솔로__제276회 26_10_28.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
     "logo": "https://www.kdrama.pw/img/videos/200x285/28232.jpg",
     "name": "TV 동물농장 제448회 26/11/01",
     "title": "TV 동물농장 제448회 26/11/01",
@@ -3911,15 +3929,6 @@
     "title": "쇼! 음악중심 제389회 26/10/31",
     "uris": [
       "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/쇼! 음악중심_제389회 26_10_31.m3u8"
-    ]
-  },
-  {
-    "group": "예능(다시보기)",
-    "logo": "https://www.kdrama.pw/img/videos/200x285/28292.jpg",
-    "name": "나 혼자 산다 제703회 26/10/31",
-    "title": "나 혼자 산다 제703회 26/10/31",
-    "uris": [
-      "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/나 혼자 산다_제703회 26_10_31.m3u8"
     ]
   },
   {

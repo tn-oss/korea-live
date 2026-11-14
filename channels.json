@@ -1910,6 +1910,69 @@
     },
     {
         "group": "예능(다시보기)",
+        "logo": "https://www.kdrama.pw/img/videos/200x285/37682.jpg",
+        "name": "살림하는 남자들 시즌2 제437회 26/11/15",
+        "title": "살림하는 남자들 시즌2 제437회 26/11/15",
+        "uris": [
+            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/살림하는 남자들 시즌2_제437회 26_11_15.m3u8"
+        ]
+    },
+    {
+        "group": "예능(다시보기)",
+        "logo": "https://www.kdrama.pw/img/videos/200x285/50482.jpg",
+        "name": "속풀이쇼 동치미 제83회 26/11/15",
+        "title": "속풀이쇼 동치미 제83회 26/11/15",
+        "uris": [
+            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/속풀이쇼 동치미_제83회 26_11_15.m3u8"
+        ]
+    },
+    {
+        "group": "예능(다시보기)",
+        "logo": "https://www.kdrama.pw/img/videos/200x285/46068.jpg",
+        "name": "아는 형님 제241회 26/11/14",
+        "title": "아는 형님 제241회 26/11/14",
+        "uris": [
+            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/아는 형님_제241회 26_11_14.m3u8"
+        ]
+    },
+    {
+        "group": "예능(다시보기)",
+        "logo": "https://www.kdrama.pw/img/videos/200x285/52229.jpg",
+        "name": "니가 내라 독박투어 제3회 26/11/14",
+        "title": "니가 내라 독박투어 제3회 26/11/14",
+        "uris": [
+            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/니가 내라 독박투어_제3회 26_11_14.m3u8"
+        ]
+    },
+    {
+        "group": "예능(다시보기)",
+        "logo": "https://www.kdrama.pw/img/videos/200x285/52230.jpg",
+        "name": "언포게터블 듀엣2 제3회 26/11/14",
+        "title": "언포게터블 듀엣2 제3회 26/11/14",
+        "uris": [
+            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/언포게터블 듀엣2_제3회 26_11_14.m3u8"
+        ]
+    },
+    {
+        "group": "예능(다시보기)",
+        "logo": "https://www.kdrama.pw/img/videos/200x285/52163.jpg",
+        "name": "지구마불 세계여행4 제4회 26/11/14",
+        "title": "지구마불 세계여행4 제4회 26/11/14",
+        "uris": [
+            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/지구마불 세계여행4_제4회 26_11_14.m3u8"
+        ]
+    },
+    {
+        "group": "예능(다시보기)",
+        "logo": "https://www.kdrama.pw/img/videos/200x285/28083.jpg",
+        "name": "강적들 제439회 26/11/14",
+        "title": "강적들 제439회 26/11/14",
+        "uris": [
+            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/강적들_제439회 26_11_14.m3u8"
+        ]
+    },
+    {
+        "group": "예능(다시보기)",
         "logo": "https://www.kdrama.pw/img/videos/200x285/42290.jpg",
         "name": "놀면 뭐하니? 제366회 26/11/14",
         "title": "놀면 뭐하니? 제366회 26/11/14",
@@ -2729,15 +2792,6 @@
     },
     {
         "group": "예능(다시보기)",
-        "logo": "https://www.kdrama.pw/img/videos/200x285/50482.jpg",
-        "name": "속풀이쇼 동치미 제82회 26/11/08",
-        "title": "속풀이쇼 동치미 제82회 26/11/08",
-        "uris": [
-            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/속풀이쇼 동치미_제82회 26_11_08.m3u8"
-        ]
-    },
-    {
-        "group": "예능(다시보기)",
         "logo": "https://www.kdrama.pw/img/videos/200x285/39834.jpg",
         "name": "전지적 참견 시점 제426회 26/11/08",
         "title": "전지적 참견 시점 제426회 26/11/08",
@@ -2756,20 +2810,29 @@
     },
     {
         "group": "예능(다시보기)",
+        "logo": "https://www.kdrama.pw/img/videos/200x285/37682.jpg",
+        "name": "살림하는 남자들 시즌2 제436회 26/11/08",
+        "title": "살림하는 남자들 시즌2 제436회 26/11/08",
+        "uris": [
+            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/살림하는 남자들 시즌2_제436회 26_11_08.m3u8"
+        ]
+    },
+    {
+        "group": "예능(다시보기)",
+        "logo": "https://www.kdrama.pw/img/videos/200x285/50482.jpg",
+        "name": "속풀이쇼 동치미 제82회 26/11/08",
+        "title": "속풀이쇼 동치미 제82회 26/11/08",
+        "uris": [
+            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/속풀이쇼 동치미_제82회 26_11_08.m3u8"
+        ]
+    },
+    {
+        "group": "예능(다시보기)",
         "logo": "https://www.kdrama.pw/img/videos/200x285/46068.jpg",
         "name": "아는 형님 제240회 26/11/08",
         "title": "아는 형님 제240회 26/11/08",
         "uris": [
             "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/아는 형님_제240회 26_11_08.m3u8"
-        ]
-    },
-    {
-        "group": "예능(다시보기)",
-        "logo": "https://www.kdrama.pw/img/videos/200x285/52230.jpg",
-        "name": "언포게터블 듀엣2 제2회 26/11/08",
-        "title": "언포게터블 듀엣2 제2회 26/11/08",
-        "uris": [
-            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/언포게터블 듀엣2_제2회 26_11_08.m3u8"
         ]
     },
     {
@@ -2783,29 +2846,29 @@
     },
     {
         "group": "예능(다시보기)",
+        "logo": "https://www.kdrama.pw/img/videos/200x285/52230.jpg",
+        "name": "언포게터블 듀엣2 제2회 26/11/08",
+        "title": "언포게터블 듀엣2 제2회 26/11/08",
+        "uris": [
+            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/언포게터블 듀엣2_제2회 26_11_08.m3u8"
+        ]
+    },
+    {
+        "group": "예능(다시보기)",
+        "logo": "https://www.kdrama.pw/img/videos/200x285/52163.jpg",
+        "name": "지구마불 세계여행4 제3회 26/10/31",
+        "title": "지구마불 세계여행4 제3회 26/10/31",
+        "uris": [
+            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/지구마불 세계여행4_제3회 26_10_31.m3u8"
+        ]
+    },
+    {
+        "group": "예능(다시보기)",
         "logo": "https://www.kdrama.pw/img/videos/200x285/28083.jpg",
         "name": "강적들 제438회 26/11/08",
         "title": "강적들 제438회 26/11/08",
         "uris": [
             "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/강적들_제438회 26_11_08.m3u8"
-        ]
-    },
-    {
-        "group": "예능(다시보기)",
-        "logo": "https://www.kdrama.pw/img/videos/200x285/37682.jpg",
-        "name": "살림하는 남자들 시즌2 제436회 26/11/08",
-        "title": "살림하는 남자들 시즌2 제436회 26/11/08",
-        "uris": [
-            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/살림하는 남자들 시즌2_제436회 26_11_08.m3u8"
-        ]
-    },
-    {
-        "group": "예능(다시보기)",
-        "logo": "https://www.kdrama.pw/img/videos/200x285/52014.jpg",
-        "name": "뒤너쇼 제6회 26/11/07",
-        "title": "뒤너쇼 제6회 26/11/07",
-        "uris": [
-            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/뒤너쇼_제6회 26_11_07.m3u8"
         ]
     },
     {
@@ -3584,15 +3647,6 @@
     },
     {
         "group": "예능(다시보기)",
-        "logo": "https://www.kdrama.pw/img/videos/200x285/50482.jpg",
-        "name": "속풀이쇼 동치미 제81회 26/11/01",
-        "title": "속풀이쇼 동치미 제81회 26/11/01",
-        "uris": [
-            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/속풀이쇼 동치미_제81회 26_11_01.m3u8"
-        ]
-    },
-    {
-        "group": "예능(다시보기)",
         "logo": "https://www.kdrama.pw/img/videos/200x285/39834.jpg",
         "name": "전지적 참견 시점 제425회 26/11/01",
         "title": "전지적 참견 시점 제425회 26/11/01",
@@ -3607,60 +3661,6 @@
         "title": "TV 동물농장 제448회 26/11/01",
         "uris": [
             "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/TV 동물농장_제448회 26_11_01.m3u8"
-        ]
-    },
-    {
-        "group": "예능(다시보기)",
-        "logo": "https://www.kdrama.pw/img/videos/200x285/46068.jpg",
-        "name": "아는 형님 제239회 26/10/31",
-        "title": "아는 형님 제239회 26/10/31",
-        "uris": [
-            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/아는 형님_제239회 26_10_31.m3u8"
-        ]
-    },
-    {
-        "group": "예능(다시보기)",
-        "logo": "https://www.kdrama.pw/img/videos/200x285/52230.jpg",
-        "name": "언포게터블 듀엣2 제1회 26/10/31",
-        "title": "언포게터블 듀엣2 제1회 26/10/31",
-        "uris": [
-            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/언포게터블 듀엣2_제1회 26_10_31.m3u8"
-        ]
-    },
-    {
-        "group": "예능(다시보기)",
-        "logo": "https://www.kdrama.pw/img/videos/200x285/52229.jpg",
-        "name": "니가 내라 독박투어 제1회 26/10/31",
-        "title": "니가 내라 독박투어 제1회 26/10/31",
-        "uris": [
-            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/니가 내라 독박투어_제1회 26_10_31.m3u8"
-        ]
-    },
-    {
-        "group": "예능(다시보기)",
-        "logo": "https://www.kdrama.pw/img/videos/200x285/28083.jpg",
-        "name": "강적들 제437회 26/10/31",
-        "title": "강적들 제437회 26/10/31",
-        "uris": [
-            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/강적들_제437회 26_10_31.m3u8"
-        ]
-    },
-    {
-        "group": "예능(다시보기)",
-        "logo": "https://www.kdrama.pw/img/videos/200x285/37682.jpg",
-        "name": "살림하는 남자들 시즌2 제435회 26/11/01",
-        "title": "살림하는 남자들 시즌2 제435회 26/11/01",
-        "uris": [
-            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/살림하는 남자들 시즌2_제435회 26_11_01.m3u8"
-        ]
-    },
-    {
-        "group": "예능(다시보기)",
-        "logo": "https://www.kdrama.pw/img/videos/200x285/52014.jpg",
-        "name": "뒤너쇼 제4회 26/10/09",
-        "title": "뒤너쇼 제4회 26/10/09",
-        "uris": [
-            "https://file-1253962976.cos.ap-nanjing.myqcloud.com/m3u8_kdrama/뒤너쇼_제4회 26_10_09.m3u8"
         ]
     },
     {
